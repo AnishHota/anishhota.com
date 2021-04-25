@@ -1,5 +1,10 @@
 /* Font-face */
 @font-face{
-    font-family:"Monsterrat";
-    src:"../fonts/Monsterrat-Regular.ttf";
+    font-family:"Antonio";
+    src: url(../fonts/Antonio/Antonio-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
 }
