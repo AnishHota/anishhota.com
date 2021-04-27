@@ -11,14 +11,35 @@
 }
 
 .header_area .main-menu .navbar{
-    padding: 1rem 20rem;
+    padding: 1rem 10rem;
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font-family:var(--Montserrat);
+    font: normal 600 15px/2px var(--Montserrat);
     text-transform: uppercase;
-    font-weight: 700;
     padding: 1.7rem;
-    color: black;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 /* End navigation */
+
+/* Banner area */
+
+.site-main .site-banner{
+    background: url(../img/banner.jpg) no-repeat 0% 100%;
+}
+
+/* End Banner area */
