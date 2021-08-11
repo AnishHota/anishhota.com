@@ -137,3 +137,22 @@
 }
 
 /* End projects area */
+
+/* Footer area */
+footer.footer-area{
+    padding: 5rem 0;
+    background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url('../img/footer.png') no-repeat ;
+    background-size: 1350px 350px;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/30px var(--Montserrat);
+}
+footer.footer-area .social a>i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+
+/* End footer area */
