@@ -100,49 +100,13 @@
 }
 /* End About area */
 
-/* Start Projects area */
 
-.site-main .project-area{
-    padding: 1rem 20rem;
-    margin-bottom: 4rem;
-}
-
-.site-main .project-area .first-row .col-lg-4{
-    display: flex;
-    justify-content: center;
-
-}
-
-.site-main .project-area .first-row .col-lg-4 > .single-project{
-    border: 1px solid var(--border-color);
-    text-align: center;
-    padding: 1.8rem 0rem;
-    margin: .9rem 0rem;
-    width: 300px;
-    height: 120px;
-    transition: transform .4s ease;
-}
-
-.site-main .project-area .first-row .col-lg-4 > .single-project{
-    width: 120%;
-}
-
-.site-main .project-area .first-row .col-lg-4 > .single-project:hover{
-    box-shadow: var(--box-shadow);
-    transform: scale(1.1);
-}
-
-.site-main .project-area .first-row .col-lg-4 > .single-project:hover > img{
-    filter: brightness(1.5);
-}
-
-/* End projects area */
 
 /* Footer area */
 footer.footer-area{
     padding: 4rem 0;
     background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url('../img/footer.png') no-repeat ;
-    background-size: 1350px 350px;
+    background-size: 100%;
 }
 
 footer.footer-area .social h5{
@@ -159,3 +123,22 @@ footer.footer-area .social a:hover>i{
 }
 
 /* End footer area */
+
+/* Projects page */
+
+.site-main .projects-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .projects-area .projects-title{
+    padding: 0 14rem;
+}
+
+/* .site-main .projects-area .projects-title h1{
+    font-size: 35px;
+} */
+
+.site-main > .projects-area .projects{
+
+}
+/* Projects page */
