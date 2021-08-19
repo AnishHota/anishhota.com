@@ -42,7 +42,8 @@
 /* Banner area */
 
 .site-main .site-banner{
-    background: url(../img/banner3.jpg) no-repeat 0%;
+    /* TODO: Background needed */
+    /* background: url(../img/banner3.jpg) no-repeat 0%; */
     background-size: 20% 80%;
     
 }
@@ -124,7 +125,7 @@ footer.footer-area .social a:hover>i{
 
 /* End footer area */
 
-/* Projects page */
+/* Start Projects page */
 
 .site-main .projects-area{
     padding: 7rem 2rem;
@@ -139,6 +140,14 @@ footer.footer-area .social a:hover>i{
 } */
 
 .site-main > .projects-area .projects{
-
+    background: rgba(248, 252, 253, 0.37);
+    padding: 2rem 2rem;
+    margin: 2rem 5rem;
+    transition: box-shadow .2s ease;
+    align-items: center;
 }
-/* Projects page */
+
+.site-main > .projects-area .projects:hover{
+    box-shadow: var(--box-shadow);
+}
+/* End Projects page */

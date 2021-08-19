@@ -18,4 +18,13 @@ function navbarFixed(){
 
 navbarFixed();
 
+// Typing animation script
+var typed = new Typed(".typing", {
+    strings: ["Software Engineer", "CV Enthusiast", "Learner"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+
+
 });
