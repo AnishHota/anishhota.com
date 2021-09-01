@@ -150,4 +150,34 @@ footer.footer-area .social a:hover>i{
 .site-main > .projects-area .projects:hover{
     box-shadow: var(--box-shadow);
 }
+
 /* End Projects page */
+
+/* Start Blogs page */
+
+.site-main .blogs-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .blogs-area .blogs-title{
+    padding: 0 14rem;
+}
+
+.site-main > .blogs-area .blogs{
+    background: rgba(248, 252, 253, 0.37);
+    padding: 2rem 2rem;
+    margin: 2rem 5rem;
+    transition: box-shadow .2s ease;
+    align-items: center;
+}
+
+.site-main > .blogs-area .blogs:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* End Projects page */
+
+/* Start Contact page */
+
+
+/* End Contact page */
