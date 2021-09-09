@@ -151,6 +151,8 @@ footer.footer-area .social a:hover>i{
     box-shadow: var(--box-shadow);
 }
 
+/*TODO: Buttons change/ fix */
+
 /* End Projects page */
 
 /* Start Blogs page */
@@ -179,5 +181,9 @@ footer.footer-area .social a:hover>i{
 
 /* Start Contact page */
 
+.site-main .contact-form h1{
+    /* font:normal var(--Montserrat); */
+    font-size: 3rem;
+}
 
 /* End Contact page */
