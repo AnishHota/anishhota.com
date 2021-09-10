@@ -116,7 +116,7 @@ footer.footer-area .social h5{
 footer.footer-area .social a>i{
     font-size: 22px;
     padding: 2rem;
-    color: var(--border-color);
+    /* color: var(--border-color); */
 }
 
 footer.footer-area .social a:hover>i{
@@ -165,16 +165,20 @@ footer.footer-area .social a:hover>i{
     padding: 0 14rem;
 }
 
-.site-main > .blogs-area .blogs{
-    background: rgba(248, 252, 253, 0.37);
+.site-main .blogs-area .blogs{
     padding: 2rem 2rem;
     margin: 2rem 5rem;
     transition: box-shadow .2s ease;
     align-items: center;
+    
 }
 
 .site-main > .blogs-area .blogs:hover{
     box-shadow: var(--box-shadow);
+}
+
+.site-main > .blogs-area .blog-date{
+    font-size: small;
 }
 
 /* End Projects page */
@@ -182,8 +186,14 @@ footer.footer-area .social a:hover>i{
 /* Start Contact page */
 
 .site-main .contact-form h1{
-    /* font:normal var(--Montserrat); */
     font-size: 3rem;
+}
+
+.site-main .contact-form{
+    box-shadow: var(--box-shadow);
+    width: 60%;
+    padding: 2rem;
+    margin: 2rem auto;
 }
 
 /* End Contact page */
