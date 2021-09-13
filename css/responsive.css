@@ -1,32 +1,25 @@
-/* If the viewport is equal to 340px or less than that  */
-@media only screen and (max-width: 340px){
-    .header_area .main_menu .navbar,
-    .header_area .main_menu .navbar .navbar_brand
-    {
-        padding: 2%;
-        margin: 0%;
-    }
 
-    .site-main .site-banner .site-title h1{
-        font-size: 41px;
-    }
-} 
+/* If the viewport is 990px (navigation bar collapses) or less */
 
 @media only screen and (max-width: 990px){
+
+    .header_area .main-menu .navbar{
+        padding: 5%;
+        text-align: center;
+    }
+
+    .header_area .main-menu .navbar .navbar-toggler-icon{
+        text-align: center;
+    }
 
     .collapse.navbar-collapse.show .navbar-nav li{
         text-align: center;
         width: 100%;
     }
 
-    /* TODO: Center the website logo */
-    .container-fluid > .navbar_brand{
-        margin: 0 auto;
-        text-align: center;
-        padding: 0%;
-        background-color: green;
-    }
-
+    .site-main .site-banner .site-title title-text{
+        font-size: 20%;
+    }    
 
 }
 

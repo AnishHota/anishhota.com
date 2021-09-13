@@ -64,7 +64,7 @@ p.para{
 .navbar_fixed{
     position: fixed;
     width: 100%;
-    top: -1px;
+    top: -2px;
     left:0;
     right:0;
     background: #ffffff; 
