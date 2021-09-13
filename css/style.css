@@ -183,6 +183,15 @@ footer.footer-area .social a:hover>i{
 
 /* End Projects page */
 
+/* Coming Soon Div */
+.coming-soon > h1{
+    font: var(--Montserrat);
+    margin: 3rem auto;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+
 /* Start Contact page */
 
 .site-main .contact-form h1{

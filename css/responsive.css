@@ -11,3 +11,22 @@
         font-size: 41px;
     }
 } 
+
+@media only screen and (max-width: 990px){
+
+    .collapse.navbar-collapse.show .navbar-nav li{
+        text-align: center;
+        width: 100%;
+    }
+
+    /* TODO: Center the website logo */
+    .container-fluid > .navbar_brand{
+        margin: 0 auto;
+        text-align: center;
+        padding: 0%;
+        background-color: green;
+    }
+
+
+}
+
