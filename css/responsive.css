@@ -23,10 +23,9 @@
         width: auto;
     }
     
-    .site-main .title-text{
-        text-align: left;
+    .site-main .site-banner .title-text{
+        text-align: center;
         width: 100%;
-        padding-left: 5%;
     }
 
     .site-main .site-button .d-flex{
@@ -35,10 +34,26 @@
         margin: 0;
     }
 
+    /* Start Banner area */
     .site-main .site-banner .banner-image{
         text-align: center;
+        margin: 0 auto;
     }
 
+    .site-main .site-banner .row{
+        flex-direction: column-reverse;
+    }
+
+    .site-main .site-banner .row .site-title{
+        height: 20%;
+    }
+
+    .site-main .site-banner .row .site-button{
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    /* End Banner area */
 
     /* Start about area */
     .site-main .about-area{
@@ -74,10 +89,37 @@
     /* End about area */
 
 
-    /* Start footer area */
+    /* TODO:Start footer area */
 
-    
+    footer.footer-area{
+        padding-bottom: 0%;
+    }
 
     /* End footer area */
+
+    /* Start project page */
+
+    .site-main .projects-area{
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .site-main > .projects-area .projects{
+        margin: 0 auto;
+    }
+    /* End project page */
+
+    /* Start Blog page */
+    .site-main .blogs-area{
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .site-main .blogs-area .blogs{
+        margin: 0 auto;
+    }
+
+    /* End blog page */
 }
 

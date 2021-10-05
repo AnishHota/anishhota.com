@@ -136,7 +136,10 @@ footer.footer-area .social a:hover>i{
 }
 
 .site-main .projects-area .projects-title{
-    padding: 0 14rem;
+    /* padding: 0 14rem; */
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* .site-main .projects-area .projects-title h1{
@@ -166,7 +169,10 @@ footer.footer-area .social a:hover>i{
 }
 
 .site-main .blogs-area .blogs-title{
-    padding: 0 14rem;
+    /* padding: 0 14rem; */
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .site-main .blogs-area .blogs{
