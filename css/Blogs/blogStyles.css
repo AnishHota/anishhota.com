@@ -1,0 +1,51 @@
+/* import fonts from fonts.css file */
+@import url(../fonts.css);
+
+/* import variables from variables.css file */
+@import url(../partials/variables.css);
+
+/* import _global.css file */
+@import url(../partials/_global.css);
+
+/* Blog area */
+
+.site-main .blog-area{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.site-main .blog-area .blogs-title{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p.blogText{
+    font-family: var(--Montserrat);
+}
+
+.site-main .blogImage{
+    width: 100%;
+    max-height: 50vh;
+}
+
+.site-main .blogImage img{
+    max-height: 50vh;
+}
+
+.site-main .blog-area .blog-content .subhead{
+    -webkit-initial-letter: 3.0;
+  initial-letter: 3.0;
+  /* color: green; */
+}
+
+.site-main .blog-area .blog-content p:first-child:first-letter{
+    float: left;
+    line-height: 90%;
+    width: .7em;
+    font-size: 400%;
+}
+
+.site-main .blog-title p{
+    color: var(--text-color);
+}

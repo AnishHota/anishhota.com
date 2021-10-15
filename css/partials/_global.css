@@ -72,3 +72,9 @@ p.para{
     z-index: 999;
     transition: background 1s ease;
 }
+
+/* Blog Text */
+
+.site-main .blog-content p{
+    font-family: var(--Montserrat);
+}
