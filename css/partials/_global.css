@@ -2,7 +2,7 @@
 /* Global classes */
 
 .title-text{
-    font: normal bold 50px/72px var(--Montserrat);
+    font: normal bold 2rem/3rem var(--Montserrat);
 }
 
 .text-uppercase{

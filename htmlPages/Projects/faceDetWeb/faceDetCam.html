@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Import the webpage's stylesheet -->
+  <link rel="stylesheet" href="../../../css/Projects/faceDetWeb/faceDetStyle.css">
+  <title>Face Detection</title>
+
+  <!-- Bootstrap css file-->
+  <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="../../../css/all.min.css">
+
+  <!-- Custom CSS file -->
+  <link rel="stylesheet" href="../../../css/style.css">
+
+  <!-- Responsive CSS file -->
+  <link rel="stylesheet" href="../../../css/responsive.css">
+
+  <!-- Blog CSS File -->
+  <link rel="stylesheet" href="../../../css/Blogs/blogStyles.css">
+
+  <link rel="icon" href="../../../img/blog-icon.png">
+
+</head>
+
+<body>
+  <!--################# Start header area #################-->
+  <header class="header_area">
+    <div class="main-menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="img-responsive" src="../../../img/logo.jpg"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- To keep the menu at side -->
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item text-response">
+                <a class="nav-link" aria-current="page" href="../../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../../projects.html">Projects</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="../../../blogs.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../../about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../../contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- ################# End Header area #################-->
+  
+  <!-- ################# Start main area #################-->
+  <h1 class="title-text text-center">Face Detection using tf.js model</h1>
+  <div class="webcamButton">
+    <button id="webcamButton" class="btn button primary-button text-uppercase"> Enable Webcam</button>
+  </div>
+  <div id='liveView' class="camView">
+    <video id="webcam" class="removed" autoplay></video>
+  </div>
+  <!-- Only use if you want to use canvas to draw the facial detection.  -->
+  <div class="canvasDisplay">
+    <canvas id="canvas" width="600px" height="400px"></canvas>
+  </div>
+
+
+
+  <!-- ################# Start footer area #################-->
+  <footer class="footer-area">
+    <div class="container">
+      <div>
+        <div class="site-logo text-center py-4">
+          <a href="#"><img src="../../../img/logo.jpg" alt="logo"></a>
+        </div>
+        <div class="social text-center">
+          <h5 class="text-uppercase">Connect with me</h5>
+          <a href="https://www.linkedin.com/in/anish-hota/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/AnishHota"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/anishhota/"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="copyrights text-center">
+          <p class="para">
+            Copyright ©2021 All rights reserved |
+            <a href="#"><span style="color: var(--primary-color);">Anish Hota</span></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ################# End footer area #################-->
+
+  <!-- Jquery js file-->
+  <script src="../../../js/jquery.3.5.1.js"></script>
+
+  <!-- Bootstrap js file -->
+  <script src="../../../js/bootstrap.min.js"></script>
+
+  <!-- Custom js file -->
+  <script src="../../../js/main.js"></script>
+
+  <!-- Loading all the scripts -->
+  <script src="../../../js/Projects/faceDetWeb/faceDetScript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+</body>
+
+</html>

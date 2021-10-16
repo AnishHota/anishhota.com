@@ -14,10 +14,12 @@
     margin: 0 auto;
 }
 
-.site-main .blog-area .blogs-title{
+.site-main .blog-area .blog-title{
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 p.blogText{
@@ -36,7 +38,6 @@ p.blogText{
 .site-main .blog-area .blog-content .subhead{
     -webkit-initial-letter: 3.0;
   initial-letter: 3.0;
-  /* color: green; */
 }
 
 .site-main .blog-area .blog-content p:first-child:first-letter{
